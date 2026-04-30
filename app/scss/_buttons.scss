@@ -47,6 +47,26 @@
     }
 }
 
+.btn-v3 {
+    padding: 15px 33px;
+    border: solid 1px $white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: $mainFont;
+    color: $white;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all ease 0.3s;
+
+    &:hover {
+        background: $white;
+        color: $darkBlue1;
+        transition: all ease 0.3s;
+    }
+}
+
 @media only screen and (max-width: 1220px) {
     .btn-v1 {
         padding: 16px 32px;
@@ -56,8 +76,10 @@
 @media only screen and (max-width: 760px) {
 
     .btn-v1,
-    .btn-v2 {
+    .btn-v2,
+    .btn-v3 {
         padding: 14px 28px;
         font-size: 14px;
+        line-height: 1.2;
     }
 }

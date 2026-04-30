@@ -112,6 +112,28 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  var tabsRoot = document.querySelector('.dif-team-sec__tabs');
+  if (tabsRoot) {
+    var buttons = tabsRoot.querySelectorAll('.dif-team-sec__tabs-control-btn');
+    var panels = tabsRoot.querySelectorAll('.dif-team-sec__tabs-data');
+
+    buttons.forEach(function (button, index) {
+      button.addEventListener('click', function () {
+        buttons.forEach(function (item) {
+          item.classList.remove('active');
+        });
+
+        panels.forEach(function (panel) {
+          panel.classList.remove('active');
+        });
+
+        button.classList.add('active');
+        if (panels[index]) {
+          panels[index].classList.add('active');
+        }
+      });
+    });
+  }
 
   function animateController() {
     new Skroll({
