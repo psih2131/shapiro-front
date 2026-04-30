@@ -141,6 +141,9 @@ ul {
 	min-width: 260px;
 }
 
+.main {
+	width: 100%;
+}
 
 
 .container {
@@ -149,23 +152,34 @@ ul {
 	margin-left: auto;
 	margin-right: auto;
 	box-sizing: border-box;
-  }
+}
 
+.container-2 {
+	width: 1160px;
+	margin: 0 auto;
+}
 
 @media only screen and (max-width: 1220px) {
-	.container {
+
+	.container,
+	.container-2 {
 		width: 750px;
 	}
 }
+
 @media only screen and (max-width: 800px) {
-	.container {
+
+	.container,
+	.container-2 {
 		width: 720px;
 	}
 
 }
 
 @media only screen and (max-width: 760px) {
-	.container {
+
+	.container,
+	.container-2 {
 		width: 350px;
 	}
 }

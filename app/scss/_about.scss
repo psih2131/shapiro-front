@@ -1,0 +1,689 @@
+.about-hero {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 74px;
+    min-height: 800px;
+}
+
+.about-hero__text-cluster-1-subtitle {
+    text-align: center;
+    font-family: $secondFont;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: $orange;
+}
+
+.about-hero__text-cluster-1__title {
+    max-width: 860px;
+    margin: 0 auto;
+    font-family: $mainFont;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 108%;
+    color: $white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-hero__text-cluster-1-text-1 {
+    text-align: center;
+    color: $white;
+    /* Built on experience. Focused on what's next. */
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    font-family: $mainFont;
+}
+
+.about-hero__text-cluster-1-text-2 {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: $white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.about-hero__text-cluster-2 {
+    margin-top: 60px;
+}
+
+.about-hero__text-cluster-2-title {
+    text-align: center;
+    max-width: 680px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: $white;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+    b {
+        color: $orange;
+    }
+}
+
+.about-hero__text-cluster-2-subtitle {
+    font-size: 18px;
+    max-width: 680px;
+    margin: 0 auto;
+    color: $white;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.about-awards-pharma {
+    background-size: cover;
+    background-position: center;
+}
+
+.about-awards {
+    padding: 80px 0 124px 0;
+}
+
+.about-awards__title {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 790px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    font-family: $secondFont;
+    color: $darkBlue1;
+
+    b {
+        font-weight: 700;
+    }
+}
+
+.about-awards__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.about-awards__img {
+    width: 500px;
+    height: 600px;
+    border-radius: 16px;
+    object-fit: cover;
+    display: block;
+}
+
+.about-awards__cards {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: calc(100% - 500px - 60px);
+    row-gap: 24px;
+}
+
+.about-awards__card {
+    width: calc(50% - 12px);
+    background: $white;
+    padding: 33px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-awards__card-number {
+    text-align: center;
+    color: $orange;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 12px;
+    font-family: $secondFont;
+}
+
+.about-awards__card-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: $secondFont;
+    color: $darkBlue1;
+    text-align: center;
+}
+
+.about-awards__card-header {
+    padding-bottom: 16px;
+}
+
+.about-awards__card-text {
+
+    padding: 17px 0px 0px;
+
+    font-family: $fontGrotesk;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.5;
+    /* or 150% */
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #9CA3AF;
+    border-top: 1px solid rgba(10, 22, 40, 0.08);
+}
+
+.about-pharma {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 14.38%, rgba(131, 203, 248, 0.308) 101.67%);
+    padding: 80px 0;
+    width: 100%;
+}
+
+.about-pharma__title {
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    font-family: $secondFont;
+    color: $darkBlue1;
+
+    b {
+        font-weight: 700;
+        color: $orange;
+    }
+}
+
+.about-pharma__subtitle {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: $secondFont;
+    color: $grey1;
+}
+
+.about-pharma__cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 32px;
+    margin-top: 60px;
+    align-items: stretch;
+}
+
+.about-pharma__card {
+    /* Container */
+    background: $white;
+    border: 1px solid rgba(10, 22, 40, 0.06);
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    padding: 37px;
+    flex: 0 0 calc((100% - 64px) / 3);
+    display: flex;
+    flex-direction: column;
+}
+
+.about-pharma__card-icon {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, #DE4F29 0%, #F97316 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-bottom: 24px;
+}
+
+.about-pharma__card-icon-element {
+    background: rgba(255, 255, 255, 0.3);
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+}
+
+.about-pharma__card-title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: $secondFont;
+    color: $darkBlue1;
+}
+
+.about-pharma__card-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    /* identical to box height, or 162% */
+    font-family: $secondFont;
+    color: $grey1;
+    margin-bottom: 28px;
+}
+
+.about-pharma__card-list-element {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    /* identical to box height, or 173% */
+    font-family: $secondFont;
+    color: #4A5568;
+    position: relative;
+
+    &::before {
+        width: 8px;
+        height: 8px;
+        left: 0;
+        content: "";
+        position: absolute;
+        left: 0;
+        border-radius: 100px;
+        background: $orange;
+        top: 9px;
+    }
+}
+
+.about-pharma__btn-row {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.team-sec {
+    padding: 60px 0 80px 0;
+    background: linear-gradient(135deg, #081120 0%, #14233C 40%, #244E8E 100%);
+
+}
+
+.team-sec__subtitle {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: $fontGrotesk;
+    color: $white;
+}
+
+.team-sec__title {
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    font-family: $secondFont;
+    color: $white;
+
+    b {
+        font-weight: 700;
+        color: $orange;
+    }
+}
+
+.team-sec__cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.team-sec__card {
+    width: calc(33.333% - 20px);
+    border: solid 1px #E7E8EA;
+    border-radius: 20px;
+    background: $white;
+    overflow: hidden;
+}
+
+.team-sec__card-photo {
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+
+.team-sec__card-info {
+    padding: 24px;
+}
+
+.team-sec__card-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: $secondFont;
+    color: $darkBlue1;
+    margin-bottom: 5px;
+}
+
+.team-sec__card-position {
+    margin-bottom: 7px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: $mainFont;
+    color: $grey1;
+}
+
+.team-sec__card-link {
+    display: inline-block;
+
+    svg {
+        display: block;
+
+        &:hover {
+            path {
+                stroke: $darkBlue1;
+            }
+        }
+    }
+
+}
+
+.ctr-sec {
+    background: linear-gradient(135deg, #0A1628 0%, #0F1E32 50%, #12233A 100%);
+    padding: 100px 0;
+}
+
+.ctr-sec__title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 60px;
+    font-family: $secondFont;
+    color: $white;
+    text-align: center;
+    margin-bottom: 30px;
+
+    b {
+        color: $orange;
+    }
+}
+
+.ctr-sec__subtitle {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    text-align: center;
+    font-family: $secondFont;
+    color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+
+}
+
+.ctr-sec__btn-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1220px) {
+    .about-hero__text-cluster-1__title {
+        font-size: 45px;
+    }
+
+    .about-hero__text-cluster-1-text-1 {
+        font-size: 22px;
+    }
+
+    .about-hero__text-cluster-1-text-2 {
+        font-size: 16px;
+    }
+
+    .about-hero__text-cluster-2-title {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+
+    .about-hero__text-cluster-2-subtitle {
+        font-size: 16px;
+    }
+
+    .about-awards__title {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+
+    .about-awards__content {
+        flex-wrap: wrap;
+    }
+
+    .about-awards__img {
+        width: 100%;
+        height: 650px;
+    }
+
+    .about-awards__cards {
+        width: calc(100%);
+        margin-top: 30px;
+    }
+
+    .about-awards {
+        padding-bottom: 80px;
+    }
+
+    .about-pharma__title {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+
+    .about-pharma__cards {
+        margin-top: 40px;
+        gap: 0;
+        row-gap: 0;
+        justify-content: space-between;
+    }
+
+    .about-pharma__card {
+        padding: 20px;
+    }
+
+    .about-pharma__card-title {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+
+    .about-pharma__card-subtitle {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .about-pharma__card-icon {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .about-pharma__btn-row {
+        margin-top: 40px;
+    }
+
+    .about-pharma__card {
+        width: calc(33.333% - 5px);
+    }
+
+    .team-sec__title {
+        font-size: 28px;
+    }
+
+    .team-sec__card {
+        width: calc(50% - 10px);
+    }
+
+    .team-sec__cards {
+        gap: 20px;
+    }
+
+    .ctr-sec {
+        padding: 80px 0;
+    }
+
+    .ctr-sec__title {
+        font-size: 42px;
+        line-height: 1;
+    }
+
+    .ctr-sec__subtitle {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 800px) {}
+
+@media only screen and (max-width: 760px) {
+    .about-hero__text-cluster-1-subtitle {
+        line-height: 1;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .about-hero__text-cluster-1__title {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .about-hero__text-cluster-1-text-1 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .about-hero__text-cluster-1-text-2 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .about-hero__text-cluster-2-title {
+        font-size: 22px;
+        line-height: 1.3;
+        margin-bottom: 15px;
+    }
+
+    .about-hero__text-cluster-2-subtitle {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .about-hero {
+        min-height: 0;
+        padding-top: 50px;
+    }
+
+    .about-awards {
+        padding: 60px 0;
+    }
+
+    .about-awards__title {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .about-awards__img {
+        height: 350px;
+        border-radius: 15px;
+    }
+
+    .about-awards__card {
+        width: 100%;
+        border-radius: 15px;
+        padding: 25px;
+    }
+
+    .about-awards__card-number {
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .about-awards__card-title {
+        font-size: 18px;
+    }
+
+    .about-pharma {
+        padding: 60px 0;
+    }
+
+    .about-pharma__title {
+        font-size: 24px;
+    }
+
+    .about-pharma__subtitle {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .about-pharma__cards {
+        display: block;
+    }
+
+    .about-pharma__card {
+        width: 100%;
+        margin-bottom: 20px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .team-sec__subtitle {
+        font-size: 14px;
+    }
+
+    .team-sec__title {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    .team-sec__card {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .team-sec__card-photo {
+        height: 300px;
+    }
+
+    .ctr-sec {
+        padding: 60px 0;
+    }
+
+    .ctr-sec__title {
+        font-size: 28px;
+        margin-bottom: 15px;
+        line-height: 1.2;
+    }
+
+    .ctr-sec__subtitle {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .about-pharma__card {
+        border-radius: 15px;
+    }
+}
