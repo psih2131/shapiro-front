@@ -1,0 +1,22 @@
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    /* Fonts */
+    /* Effects */
+  }
+  /* Figma Color Variables of your File */
+  
+.home,
+.home * {
+  box-sizing: border-box;
+}
+.home {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
