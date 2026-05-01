@@ -1,0 +1,686 @@
+.perspective-slider-sec {
+
+    background: radial-gradient(96.24% 110.53% at 15% 20%, rgba(59, 130, 246, 0.16) 0%, rgba(0, 0, 0, 0) 55%), radial-gradient(83.11% 103.16% at 85% 75%, rgba(249, 115, 22, 0.14) 0%, rgba(0, 0, 0, 0) 55%), radial-gradient(56.87% 66.32% at 50% 50%, rgba(139, 92, 246, 0.09) 0%, rgba(0, 0, 0, 0) 50%), linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, #F8FAFC 100%);
+    padding: 60px 0;
+}
+
+.perspective-slider-sec__slider-wrapper-swiper {
+    position: relative;
+    width: 100%;
+}
+
+.perspective-featured__shell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.perspective-featured__swiper {
+    flex: 1;
+    min-width: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.perspective-featured__swiper .swiper-slide {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.perspective-featured-card {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(15, 23, 42, 0.1);
+    border: 1px solid rgba(15, 23, 42, 0.06);
+    box-sizing: border-box;
+}
+
+.perspective-featured-card__media {
+    width: 400px;
+    height: 520px;
+
+    overflow: hidden;
+}
+
+.perspective-featured-card__img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.perspective-featured-card__body {
+
+    width: calc(100% - 400px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perspective-featured-card__content {
+    width: 350px;
+    row-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.perspective-featured-card__category {
+    margin: 0;
+    color: $orange;
+    font-family: $fontGrotesk;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.4px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.perspective-featured-card__title {
+    margin: 0;
+    color: #0a1628;
+    font-family: $secondFont;
+    font-size: 30px;
+    line-height: 1.25;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.perspective-featured-card__desc {
+    margin: 0;
+    color: #6b7280;
+    font-family: $mainFont;
+    font-size: 15px;
+    line-height: 1.55;
+    font-weight: 400;
+}
+
+.perspective-featured-card__meta {
+    margin: 0;
+    color: #9ca3af;
+    font-family: $mainFont;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.perspective-featured-card__cta {
+    align-self: flex-start;
+    margin-top: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 24px;
+    border-radius: 6px;
+    background: #0a1628;
+    color: #ffffff;
+    font-family: $mainFont;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    &:hover,
+    &:focus-visible {
+        background: #1e293b;
+        color: #ffffff;
+    }
+}
+
+.perspective-featured__nav {
+    flex-shrink: 0;
+    z-index: 2;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4b5563;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+
+    &:hover:not(:disabled):not(.swiper-button-disabled),
+    &:focus-visible:not(:disabled):not(.swiper-button-disabled) {
+        border-color: #9ca3af;
+        color: #1f2937;
+    }
+
+    &.swiper-button-disabled {
+        opacity: 0.4;
+        cursor: default;
+    }
+}
+
+.perspective-featured__pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 24px;
+    position: relative;
+    bottom: auto !important;
+    top: auto !important;
+    left: auto !important;
+    width: auto !important;
+}
+
+.perspective-featured__pagination.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0;
+}
+
+.perspective-featured .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: #ffffff;
+    border: 0.5px solid #cbd5e1;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+.perspective-featured .swiper-pagination-bullet-active {
+    background: #4b5563;
+    border-color: #4b5563;
+}
+
+// @media only screen and (max-width: 900px) {
+//     .perspective-featured-card {
+//         flex-direction: column;
+//         max-width: 100%;
+//     }
+
+//     .perspective-featured-card__body {
+//         width: 100%;
+//     }
+
+//     .perspective-featured-card__media {
+//         flex: none;
+//         max-width: none;
+//         width: 100%;
+//         min-height: 200px;
+//         aspect-ratio: 16 / 10;
+//     }
+
+//     .perspective-featured-card__content {
+//         padding: 28px 24px 32px;
+//     }
+
+//     .perspective-featured-card__title {
+//         font-size: 22px;
+//     }
+// }
+
+// @media only screen and (max-width: 760px) {
+//     .perspective-featured__shell {
+//         position: relative;
+//         gap: 0;
+//         padding: 0 44px;
+//     }
+
+//     .perspective-featured__swiper {
+//         width: 100%;
+//     }
+
+//     .perspective-featured__nav {
+//         position: absolute;
+//         top: 50%;
+//         transform: translateY(-50%);
+//         width: 38px;
+//         height: 38px;
+//         z-index: 3;
+
+//         svg {
+//             width: 18px;
+//             height: 18px;
+//         }
+//     }
+
+//     .perspective-featured__nav--prev {
+//         left: 0;
+//     }
+
+//     .perspective-featured__nav--next {
+//         right: 0;
+//     }
+
+//     .perspective-featured__pagination {
+//         margin-top: 18px;
+//     }
+// }
+
+.perspective-posts-sec {
+    background: $white;
+    padding: 40px 0 80px 0;
+}
+
+.perspective-posts-sec__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height, or 129% */
+    font-family: $secondFont;
+    color: $darkBlue1;
+    margin-bottom: 24px;
+}
+
+.perspective-posts-sec__nav {
+    .works-posts-sec__nav-list-element {
+        margin: 0 6px;
+    }
+}
+
+.perspective-posts-sec__posts {
+    margin-top: 40px;
+    display: flex;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+
+    .perspective-post-card {
+        width: calc(33.333% - 30px);
+        margin: 0 15px;
+    }
+}
+
+.perspective-post-card {
+    background: $white;
+    border: 1px solid rgba(10, 22, 40, 0.08);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+}
+
+.perspective-post-card__img-wrapper {
+    width: 100%;
+    height: 220px;
+    display: block;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.perspective-post-card__img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    transition: all ease 0.3s;
+    object-fit: cover;
+
+    &:hover {
+        transform: scale(1.02);
+        transition: all ease 0.3s;
+    }
+}
+
+.perspective-post-card__body {
+    padding: 28px;
+}
+
+.perspective-post-card__subtitle {
+    margin-bottom: 12px;
+    font-family: $fontGrotesk;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height, or 145% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: $orange
+}
+
+.perspective-post-card__title {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 30px;
+    /* or 143% */
+    margin-bottom: 12px;
+
+}
+
+.perspective-post-card__title-link {
+    color: $darkBlue1;
+    transition: all ease 0.3s;
+
+    &:hover {
+        color: $orange;
+        transition: all ease 0.3s;
+    }
+}
+
+.perspective-post-card__short-description {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+    margin-bottom: 16px;
+    color: #6B7280;
+    font-family: $secondFont;
+}
+
+.perspective-post-card__date {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 150% */
+    font-family: $mainFont;
+    color: #9CA3AF;
+    margin-bottom: 17px;
+}
+
+.perspective-post-card__read-more {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 150% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: $mainFont;
+    color: #0A1628;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:focus-visible {
+        outline: 2px solid $orange;
+        outline-offset: 2px;
+    }
+}
+
+.perspective-posts-sec__btn-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.ctr-form-sec {
+    padding-bottom: 100px;
+}
+
+.ctr-form-sec__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 55px;
+    /* identical to box height, or 120% */
+    text-align: center;
+    font-family: $secondFont;
+    color: $darkBlue1;
+    margin-bottom: 15px;
+
+    b {
+        font-weight: 700;
+        color: $orange;
+    }
+}
+
+.ctr-form-sec__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    text-align: center;
+    font-family: $secondFont;
+    color: #6B7280;
+    margin-bottom: 40px;
+}
+
+.ctr-form-sec__form-wrapper {
+    form {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.form-inp-wrapper {
+    width: 417px;
+    margin-right: 16px;
+
+    input {
+        width: 100%;
+        background: #FFFFFF;
+        border: 2px solid rgba(10, 22, 40, 0.12);
+        border-radius: 6px;
+        padding: 20px 24px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        font-family: $secondFont;
+        color: #9CA3AF;
+        transition: all ease 0.3s;
+
+        &::placeholder {
+            color: #9CA3AF;
+        }
+
+        &:hover,
+        &:focus {
+            border: solid 2px $orange;
+            transition: all ease 0.3s;
+        }
+    }
+}
+
+.form-inp-wrapper-btn {
+    input {
+        padding: 18px 36px;
+        background: $orange2;
+        color: $white;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        text-align: center;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        font-family: $mainFont;
+        border: none;
+        cursor: pointer;
+        transition: all ease 0.3s;
+        box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+
+        &:hover {
+            transform: scale(1.03);
+            transition: all ease 0.3s;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1220px) {
+    .perspective-featured-card {
+        flex-wrap: wrap;
+    }
+
+    .perspective-featured-card__media {
+        width: 40%;
+        height: 400px;
+
+    }
+
+    .perspective-featured-card__body {
+        width: 60%;
+    }
+
+    .perspective-featured-card__content {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .perspective-featured-card__category {
+        font-size: 12px;
+    }
+
+    .perspective-featured-card__title {
+        font-size: 24px;
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+
+    .perspective-featured-card__desc {
+        font-size: 14px;
+    }
+
+    .perspective-featured-card__cta {
+        font-size: 12px;
+        line-height: 1;
+        padding: 15px 25px;
+    }
+
+    .perspective-posts-sec__posts .perspective-post-card {
+        width: calc(50% - 30px);
+    }
+
+    .perspective-post-card__body {
+        padding: 20px;
+    }
+
+    .perspective-post-card__title {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+
+    .perspective-post-card__short-description {
+        font-size: 14px;
+    }
+
+    .ctr-form-sec {
+        padding-bottom: 80px;
+    }
+
+    .ctr-form-sec__title {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .ctr-form-sec__subtitle {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .form-inp-wrapper input {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .form-inp-wrapper-btn input {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 800px) {}
+
+@media only screen and (max-width: 760px) {
+    .perspective-slider-sec {
+        padding: 40px 0;
+    }
+
+    .perspective-featured__nav {
+        display: none;
+    }
+
+    .perspective-featured-card__media {
+        width: 100%;
+        height: 240px;
+    }
+
+    .perspective-featured-card__body {
+        width: 100%;
+    }
+
+    .perspective-featured-card__content {
+        padding: 20px;
+        row-gap: 13px;
+        width: 100%;
+    }
+
+    .perspective-featured-card__title {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+
+    .perspective-posts-sec__nav {
+        ul {
+            row-gap: 12px;
+        }
+    }
+
+    .perspective-posts-sec__posts {
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .perspective-posts-sec__posts .perspective-post-card {
+        width: 100%;
+        margin: 0;
+    }
+
+    .perspective-posts-sec__btn-row {
+        margin-top: 40px;
+    }
+
+    .perspective-posts-sec {
+        padding-bottom: 60px;
+    }
+
+    .ctr-form-sec {
+        padding-bottom: 60px;
+    }
+
+    .ctr-form-sec__title {
+        font-size: 24px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+
+    .ctr-form-sec__subtitle {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .form-inp-wrapper-btn input {
+        padding: 13px 20px;
+        font-size: 13px;
+    }
+
+    .form-inp-wrapper input {
+        font-size: 13px;
+    }
+}

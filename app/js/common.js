@@ -112,6 +112,33 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  var perspectiveFeaturedRoot = document.querySelector('.perspective-featured');
+  if (perspectiveFeaturedRoot && typeof Swiper !== 'undefined') {
+    var perspectiveSwiperEl = perspectiveFeaturedRoot.querySelector('.swiper');
+    var perspectivePrev = perspectiveFeaturedRoot.querySelector('.perspective-featured__nav--prev');
+    var perspectiveNext = perspectiveFeaturedRoot.querySelector('.perspective-featured__nav--next');
+    var perspectivePag = perspectiveFeaturedRoot.querySelector('.perspective-featured__pagination');
+    if (perspectiveSwiperEl) {
+      new Swiper(perspectiveSwiperEl, {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        speed: 480,
+        loop: false,
+        watchOverflow: true,
+        navigation: {
+          prevEl: perspectivePrev,
+          nextEl: perspectiveNext,
+        },
+        pagination: perspectivePag
+          ? {
+              el: perspectivePag,
+              clickable: true,
+            }
+          : undefined,
+      });
+    }
+  }
+
   var tabsRoot = document.querySelector('.dif-team-sec__tabs');
   if (tabsRoot) {
     var buttons = tabsRoot.querySelectorAll('.dif-team-sec__tabs-control-btn');
