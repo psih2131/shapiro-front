@@ -43,11 +43,9 @@
 }
 
 .hero__card {
-  background: linear-gradient(
-    to left,
-    rgba(15, 40, 71, 0.65),
-    rgba(15, 40, 71, 0.65)
-  );
+  background: linear-gradient(to left,
+      rgba(15, 40, 71, 0.65),
+      rgba(15, 40, 71, 0.65));
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 55px;
@@ -160,7 +158,9 @@
 }
 
 .cta-section {
-  background: radial-gradient(106.77% 300.46% at 53.65% 149.53%, rgba(96, 165, 250, 0.36) 0.06%, rgba(28, 48, 73, 0.104979) 38.14%, rgba(0, 0, 0, 0) 50%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(135deg, #0A1628 0%, #0F1E32 50%, #12233A 100%);
+  background: radial-gradient(106.77% 300.46% at 53.65% 149.53%, rgba(96, 165, 250, 0.36) 0.06%, rgba(28, 48, 73, 0.104979) 38.14%, rgba(0, 0, 0, 0) 50%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    , linear-gradient(135deg, #0A1628 0%, #0F1E32 50%, #12233A 100%);
   padding: 70px 0;
   display: flex;
   flex-direction: column;
@@ -206,12 +206,10 @@
 }
 
 .cta-section__title-accent {
-  background: linear-gradient(
-      90deg,
+  background: linear-gradient(90deg,
       rgba(222, 79, 41, 1) 0%,
       rgba(249, 115, 22, 1) 42.307692766189575%,
-      rgba(247, 147, 30, 1) 98.55769276618958%
-    ),
+      rgba(247, 147, 30, 1) 98.55769276618958%),
     linear-gradient(to left, #ffffff, #ffffff);
   background-clip: text;
   -webkit-background-clip: text;
@@ -270,17 +268,13 @@
 }
 
 .our-thinking {
-  background: linear-gradient(
-      180deg,
+  background: linear-gradient(180deg,
       rgba(15, 50, 90, 1) 45.673078298568726%,
-      rgba(20, 30, 50, 1) 100%
-    ),
-    radial-gradient(
-      closest-side,
+      rgba(20, 30, 50, 1) 100%),
+    radial-gradient(closest-side,
       rgba(96, 165, 250, 0.4) 0%,
       rgba(59, 130, 246, 0.2) 40.00000059604645%,
-      rgba(0, 0, 0, 0) 69.9999988079071%
-    );
+      rgba(0, 0, 0, 0) 69.9999988079071%);
   padding: 80px 0;
   display: flex;
   flex-direction: column;
@@ -395,11 +389,9 @@
 }
 
 .our-thinking__card {
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.08) 0%,
-    rgba(255, 255, 255, 0.08) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.08) 0%,
+      rgba(255, 255, 255, 0.08) 100%);
   border-radius: 6px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.2);
@@ -411,7 +403,7 @@
   flex-shrink: 0;
   width: 100%;
   max-width: 379px;
-  height: 480px;
+
   position: relative;
   box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.08);
   overflow: hidden;
@@ -470,7 +462,7 @@
   letter-spacing: 0.6px;
   font-weight: 400;
   text-transform: uppercase;
- 
+
 }
 
 
@@ -590,11 +582,9 @@
 }
 
 .our-thinking__subscribe {
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.08) 0%,
-    rgba(255, 255, 255, 0.03) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.08) 0%,
+      rgba(255, 255, 255, 0.03) 100%);
   border-radius: 16px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.2);
@@ -737,27 +727,19 @@
 }
 
 .stella-section {
-  background: radial-gradient(
-      closest-side,
+  background: radial-gradient(closest-side,
       rgba(255, 255, 255, 0.5) 0%,
-      rgba(156, 128, 255, 0.03) 60.00000238418579%
-    ),
-    radial-gradient(
-      closest-side,
+      rgba(156, 128, 255, 0.03) 60.00000238418579%),
+    radial-gradient(closest-side,
       rgba(96, 165, 250, 0.2) 0%,
-      rgba(0, 0, 0, 0) 50%
-    ),
-    radial-gradient(
-      closest-side,
+      rgba(0, 0, 0, 0) 50%),
+    radial-gradient(closest-side,
       rgba(147, 112, 219, 0.5) 0%,
-      rgba(0, 0, 0, 0) 50%
-    ),
-    linear-gradient(
-      135deg,
+      rgba(0, 0, 0, 0) 50%),
+    linear-gradient(135deg,
       rgba(240, 245, 255, 1) 0%,
       rgba(245, 245, 255, 1) 50%,
-      rgba(242, 245, 255, 1) 100%
-    );
+      rgba(242, 245, 255, 1) 100%);
   padding: 60px 0;
   display: flex;
   flex-direction: column;
@@ -1154,19 +1136,15 @@
   box-shadow: 0px 4px 16px 0px rgba(31, 38, 135, 0.08);
 
   &--glass {
-    background: linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.76) 0%,
-      rgba(255, 252, 248, 0.76) 100%
-    );
+    background: linear-gradient(135deg,
+        rgba(255, 255, 255, 0.76) 0%,
+        rgba(255, 252, 248, 0.76) 100%);
   }
 
   &--solid {
-    background: linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.95) 0%,
-      rgba(255, 252, 248, 0.95) 100%
-    );
+    background: linear-gradient(135deg,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(255, 252, 248, 0.95) 100%);
   }
 }
 
@@ -1190,47 +1168,29 @@
 }
 
 .philosophy__shift {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: center;
-  gap: 8px;
-  align-self: stretch;
-  flex-shrink: 0;
-  min-height: 42px;
-  position: relative;
-  width: 100%;
-}
-
-.philosophy__shift-lead {
-  color: #4a5568;
-  text-align: center;
-  font-family: "HelveticaNeue-Light", sans-serif;
-  font-size: 32px;
-  line-height: 42px;
+  font-style: normal;
   font-weight: 300;
-  position: relative;
-}
-
-.philosophy__shift-accent {
-  background: linear-gradient(
-      90deg,
-      rgba(222, 79, 41, 1) 0%,
-      rgba(249, 115, 22, 1) 50%,
-      rgba(251, 146, 60, 1) 100%
-    ),
-    linear-gradient(to left, #4a5568, #4a5568);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  font-family: "HelveticaNeue-Bold", sans-serif;
   font-size: 32px;
   line-height: 42px;
-  font-weight: 700;
-  position: relative;
+  /* identical to box height, or 131% */
+  text-align: center;
+  font-family: $secondFont;
+  color: #4A5568;
+
+  b {
+    background: linear-gradient(90deg,
+        rgba(222, 79, 41, 1) 0%,
+        rgba(249, 115, 22, 1) 50%,
+        rgba(251, 146, 60, 1) 100%),
+      linear-gradient(to left, #4a5568, #4a5568);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+  }
 }
+
+
 
 .philosophy__intel {
   padding: 80px 0;
@@ -1242,7 +1202,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
   }
 }
 
@@ -1297,21 +1257,18 @@
   text-align: left;
   font-size: 38px;
   line-height: 50px;
-  font-weight: 400;
+  font-weight: 300;
   position: relative;
   width: 419px;
+  font-family: $secondFont;
+
+  b {
+    font-weight: 700;
+    font-style: italic;
+  }
 }
 
-.philosophy__intel-heading-strong {
-  font-family: "HelveticaNeue-BoldItalic", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
 
-.philosophy__intel-heading-rest {
-  font-family: "HelveticaNeue-Light", sans-serif;
-  font-weight: 300;
-}
 
 .philosophy__intel-cta {
   background: #ffffff;
@@ -1380,7 +1337,7 @@
 }
 
 .testimonials {
-  background-image: 
+  background-image:
     url("../img/_src/TestimonialsSection.jpg");
   background-position: center, center, center;
   background-size: cover, cover, cover;
@@ -1444,11 +1401,9 @@
 }
 
 .testimonials__card {
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0.43) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.43) 100%);
   border-radius: 16px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.2);
@@ -1546,18 +1501,14 @@
 }
 
 .case-studies {
-  background: radial-gradient(
-      closest-side,
+  background: radial-gradient(closest-side,
       rgba(255, 255, 255, 0.6) 0%,
-      rgba(255, 255, 255, 0) 100%
-    ),
-    linear-gradient(
-      180deg,
+      rgba(255, 255, 255, 0) 100%),
+    linear-gradient(180deg,
       rgba(255, 255, 255, 0.9) 0%,
       rgba(255, 242, 230, 0.9) 30.000001192092896%,
       rgba(255, 238, 220, 0.9) 60.00000238418579%,
-      rgba(255, 245, 235, 0.9) 100%
-    );
+      rgba(255, 245, 235, 0.9) 100%);
   padding: 70px 0 80px 0;
   display: flex;
   flex-direction: column;
@@ -1715,11 +1666,9 @@
     position: absolute;
     inset: 0;
     pointer-events: none;
-    background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0) 68.33%,
-      #ffffff 100%
-    );
+    background: linear-gradient(180deg,
+        rgba(255, 255, 255, 0) 68.33%,
+        #ffffff 100%);
   }
 }
 
@@ -1778,7 +1727,6 @@
   line-height: 24px;
   font-weight: 600;
   margin-bottom: 18px
-
 }
 
 
@@ -1786,7 +1734,7 @@
 
   left: 24px;
   width: calc(100% - 48px);
- 
+
   height: 40px;
   box-sizing: border-box;
   display: flex;
@@ -1810,6 +1758,7 @@
   transition: background-color 0.2s ease, color 0.2s ease;
   position: absolute;
   bottom: 24px;
+
   &:hover,
   &:focus-visible {
     background: #4a5568;
@@ -1871,7 +1820,7 @@
 
 .light-comparison {
   background:
-    
+
     url("../img/_src/LightComparisonSection.jpg") center / cover no-repeat;
   padding: 80px 0;
   display: flex;
@@ -1891,7 +1840,7 @@
   gap: 60px;
   align-items: center;
   justify-content: flex-start;
- 
+
 }
 
 .light-comparison__head {
@@ -1935,17 +1884,15 @@
   width: 497.52px;
   margin: 0 auto;
   max-width: calc(100% - 64.47px);
-   text-align: center;
+  text-align: center;
 
 }
 
 .light-comparison__title-accent {
-  background: linear-gradient(
-      90deg,
+  background: linear-gradient(90deg,
       rgba(222, 79, 41, 1) 0%,
       rgba(249, 115, 22, 1) 50%,
-      rgba(251, 146, 60, 1) 100%
-    ),
+      rgba(251, 146, 60, 1) 100%),
     linear-gradient(to left, #4a5568, #4a5568);
   background-clip: text;
   -webkit-background-clip: text;
@@ -2175,12 +2122,10 @@
   grid-template-rows: repeat(1, fit-content(100%));
 
   &--legacy {
-    background: linear-gradient(
-      90deg,
-      rgba(107, 114, 128, 1) 0%,
-      rgba(156, 163, 175, 1) 50%,
-      rgba(209, 213, 219, 1) 100%
-    );
+    background: linear-gradient(90deg,
+        rgba(107, 114, 128, 1) 0%,
+        rgba(156, 163, 175, 1) 50%,
+        rgba(209, 213, 219, 1) 100%);
     padding: 10px 0;
     top: 46px;
     gap: 194px;
@@ -2354,22 +2299,18 @@
     width: var(--light-comparison-sr-fill);
     max-width: var(--light-comparison-sr-fill);
     border-radius: 60px;
-    background: linear-gradient(
-      90deg,
-      rgba(26, 10, 10, 1) 0%,
-      rgba(139, 58, 30, 1) 50%,
-      rgba(222, 79, 41, 1) 100%
-    );
+    background: linear-gradient(90deg,
+        rgba(26, 10, 10, 1) 0%,
+        rgba(139, 58, 30, 1) 50%,
+        rgba(222, 79, 41, 1) 100%);
     pointer-events: none;
   }
 }
 
 .light-comparison__panel {
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.85) 0%,
-    rgba(255, 252, 248, 0.9) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.85) 0%,
+      rgba(255, 252, 248, 0.9) 100%);
   border-radius: 20px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.4);
@@ -2497,17 +2438,13 @@
 }
 
 .evolution {
-  background: radial-gradient(
-      closest-side,
+  background: radial-gradient(closest-side,
       rgba(222, 79, 41, 0.22) 0%,
-      rgba(255, 255, 255, 0) 60.00000238418579%
-    ),
-    linear-gradient(
-      180deg,
+      rgba(255, 255, 255, 0) 60.00000238418579%),
+    linear-gradient(180deg,
       rgba(255, 245, 235, 1) 0%,
       rgba(255, 250, 245, 1) 50%,
-      rgba(255, 248, 240, 1) 100%
-    );
+      rgba(255, 248, 240, 1) 100%);
   padding: 80px 0;
   display: flex;
   flex-direction: column;
@@ -2610,17 +2547,13 @@
   &--tomorrow {
     border-left: 1px solid #e5e7eb;
     background:
-      linear-gradient(
-        to left,
+      linear-gradient(to left,
         rgba(255, 255, 255, 0.6),
-        rgba(255, 255, 255, 0.6)
-      ),
-      linear-gradient(
-        139.48deg,
+        rgba(255, 255, 255, 0.6)),
+      linear-gradient(139.48deg,
         rgba(222, 79, 41, 0.85) 0%,
         rgba(247, 147, 30, 0.85) 30.288460850715637%,
-        rgba(255, 255, 255, 0.85) 92.42112040519714%
-      );
+        rgba(255, 255, 255, 0.85) 92.42112040519714%);
   }
 }
 
@@ -2687,12 +2620,10 @@
 }
 
 .speed {
-  background: linear-gradient(
-    135deg,
-    rgba(8, 17, 32, 1) 0%,
-    rgba(20, 35, 60, 1) 40.00000059604645%,
-    rgba(36, 78, 142, 1) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(8, 17, 32, 1) 0%,
+      rgba(20, 35, 60, 1) 40.00000059604645%,
+      rgba(36, 78, 142, 1) 100%);
   padding: 100px 0;
   display: flex;
   flex-direction: column;
@@ -2745,12 +2676,10 @@
 }
 
 .speed__title-accent {
-  background: linear-gradient(
-      90deg,
+  background: linear-gradient(90deg,
       rgba(222, 79, 41, 1) 0%,
       rgba(249, 115, 22, 1) 50%,
-      rgba(251, 146, 60, 1) 100%
-    ),
+      rgba(251, 146, 60, 1) 100%),
     linear-gradient(to left, #000000, #000000);
   background-clip: text;
   -webkit-background-clip: text;
@@ -2778,24 +2707,22 @@
 .speed__rail {
   width: 100%;
   max-width: 1197px;
-  background: linear-gradient(
-    90deg,
-    rgba(120, 43, 22, 0) 0%,
-    rgba(127, 45, 23, 0.07) 7.14285746216774%,
-    rgba(134, 48, 25, 0.14) 14.28571492433548%,
-    rgba(141, 50, 26, 0.21) 21.42857164144516%,
-    rgba(148, 53, 27, 0.29) 28.57142984867096%,
-    rgba(155, 56, 29, 0.36) 35.71428656578064%,
-    rgba(162, 58, 30, 0.43) 42.85714328289032%,
-    rgba(170, 61, 31, 0.5) 50%,
-    rgba(177, 63, 33, 0.57) 57.14285969734192%,
-    rgba(184, 66, 34, 0.64) 64.28571343421936%,
-    rgba(192, 68, 35, 0.71) 71.42857313156128%,
-    rgba(199, 71, 37, 0.79) 78.57142686843872%,
-    rgba(207, 74, 38, 0.86) 85.71428656578064%,
-    rgba(214, 76, 40, 0.93) 92.85714030265808%,
-    rgba(222, 79, 41, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(120, 43, 22, 0) 0%,
+      rgba(127, 45, 23, 0.07) 7.14285746216774%,
+      rgba(134, 48, 25, 0.14) 14.28571492433548%,
+      rgba(141, 50, 26, 0.21) 21.42857164144516%,
+      rgba(148, 53, 27, 0.29) 28.57142984867096%,
+      rgba(155, 56, 29, 0.36) 35.71428656578064%,
+      rgba(162, 58, 30, 0.43) 42.85714328289032%,
+      rgba(170, 61, 31, 0.5) 50%,
+      rgba(177, 63, 33, 0.57) 57.14285969734192%,
+      rgba(184, 66, 34, 0.64) 64.28571343421936%,
+      rgba(192, 68, 35, 0.71) 71.42857313156128%,
+      rgba(199, 71, 37, 0.79) 78.57142686843872%,
+      rgba(207, 74, 38, 0.86) 85.71428656578064%,
+      rgba(214, 76, 40, 0.93) 92.85714030265808%,
+      rgba(222, 79, 41, 1) 100%);
   border-radius: 60px 100px 100px 60px;
   padding: 24px 48px;
   box-sizing: border-box;
@@ -2875,12 +2802,10 @@
 
 .speed__closing-emphasis {
   margin: 0;
-  background: linear-gradient(
-      90deg,
+  background: linear-gradient(90deg,
       rgba(249, 115, 22, 1) 0%,
       rgba(251, 146, 60, 1) 50%,
-      rgba(253, 186, 116, 1) 100%
-    ),
+      rgba(253, 186, 116, 1) 100%),
     linear-gradient(to left, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
   background-clip: text;
   -webkit-background-clip: text;
@@ -2905,40 +2830,45 @@
 
 
 
-@media only screen and (max-width: 1520px)  {
-  .hero__title{
+@media only screen and (max-width: 1520px) {
+  .hero__title {
     font-size: 48px;
     line-height: 1.2;
   }
-  .hero__card{
+
+  .hero__card {
     gap: 20px;
     padding: 40px;
   }
 }
 
 @media only screen and (max-width: 1920px) and (max-height: 780px) {
-  .hero__title{
+  .hero__title {
     font-size: 40px;
     line-height: 1.2;
   }
-  .hero__eyebrow{
+
+  .hero__eyebrow {
     font-size: 14px;
   }
-  .hero__subhead{
+
+  .hero__subhead {
     font-size: 16px;
   }
-  .hero__card{
+
+  .hero__card {
     padding: 35px;
   }
 }
 
 
 @media only screen and (max-width: 1450px) and (max-height: 780px) {
-  .hero__title{
+  .hero__title {
     font-size: 35px;
     line-height: 1.2;
   }
-  .hero__cta{
+
+  .hero__cta {
     padding: 12px 20px;
   }
 }
@@ -2956,153 +2886,190 @@
 
 
 @media only screen and (max-width: 1220px) {
-  .cta-section__title{
+  .cta-section__title {
     font-size: 38px;
   }
-  .cta-section__text{
+
+  .cta-section__text {
     font-size: 18px;
   }
-  .cta-section__button{
+
+  .cta-section__button {
     padding: 12px 20px;
     font-size: 14px;
     letter-spacing: 1.2px;
   }
-  .cta-section{
+
+  .cta-section {
     padding: 50px 0;
   }
 
-  .our-thinking__subscribe{
+  .our-thinking__subscribe {
     padding: 50px 30px;
   }
-  .our-thinking__subscribe-title{
+
+  .our-thinking__subscribe-title {
     font-size: 32px;
   }
-  .our-thinking__subscribe-text{
+
+  .our-thinking__subscribe-text {
     font-size: 18px;
   }
-  .our-thinking__form{
+
+  .our-thinking__form {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
   }
-  .our-thinking__field{
+
+  .our-thinking__field {
     width: calc(50% - 10px);
   }
-  .our-thinking__field{
+
+  .our-thinking__field {
     padding: 15px 20px;
     height: auto;
   }
-  .our-thinking__submit{
+
+  .our-thinking__submit {
     height: auto;
     padding: 14px 20px;
   }
-  .our-thinking__submit-text{
+
+  .our-thinking__submit-text {
     font-size: 14px;
   }
-  .our-thinking__label{
+
+  .our-thinking__label {
     font-size: 16px;
     line-height: 1.5;
   }
-  .our-thinking__heading{
+
+  .our-thinking__heading {
     font-size: 32px;
     line-height: 1.2;
   }
+
   .our-thinking__pagination {
     display: flex;
   }
+
   .case-studies__pagination {
     display: flex;
   }
-  .our-thinking__more{
+
+  .our-thinking__more {
     padding: 12px 20px;
     font-size: 14px;
     letter-spacing: 1.2px;
   }
-  .stella-section__top{
+
+  .stella-section__top {
     flex-wrap: wrap;
   }
-  .stella-section__visual{
+
+  .stella-section__visual {
     width: 430px;
     height: auto;
     margin: 0 auto;
   }
-  .stella-section{
+
+  .stella-section {
     padding: 50px 0;
   }
-  .stella-section__intro{
+
+  .stella-section__intro {
     width: 270px;
   }
-  .stella-section__kicker{
+
+  .stella-section__kicker {
     font-size: 14px;
     line-height: 1.5;
   }
-  .stella-section__title{
+
+  .stella-section__title {
     font-size: 60px;
     line-height: 1.2;
   }
-  .stella-section__tagline{
+
+  .stella-section__tagline {
     font-size: 16px;
     line-height: 1.5;
   }
-  .stella-section__action{
+
+  .stella-section__action {
     font-size: 28px;
     line-height: 1.2;
   }
-  .stella-section__top{
+
+  .stella-section__top {
     align-items: flex-start;
     gap: 30px;
   }
-  .stella-section__description{
+
+  .stella-section__description {
     font-size: 24px;
     line-height: 1.5;
   }
-  .stella-section__cta{
+
+  .stella-section__cta {
     padding: 15px 20px;
     line-height: 1;
     min-height: 0;
   }
-  .stella-section__cta-text{
+
+  .stella-section__cta-text {
     font-size: 14px;
     line-height: 1;
     letter-spacing: 1.2px;
   }
-  .philosophy__top{
+
+  .philosophy__top {
     padding: 50px 0;
   }
-  .philosophy__media{
+
+  .philosophy__media {
     width: 400px;
     height: 350px;
     border-radius: 20px;
   }
-  .philosophy__row{
+
+  .philosophy__row {
     gap: 0;
   }
-  .philosophy__body-head{
+
+  .philosophy__body-head {
     gap: 10px;
   }
-  .philosophy__eyebrow{
+
+  .philosophy__eyebrow {
     font-size: 14px;
     line-height: 1.5;
   }
-  .philosophy__title{
+
+  .philosophy__title {
     font-size: 32px;
     line-height: 1.2;
   }
-  .philosophy__lead{
+
+  .philosophy__lead {
     font-size: 16px;
     line-height: 1.5;
   }
-  .philosophy__body{
+
+  .philosophy__body {
     width: calc(100% - 400px);
     padding-left: 30px;
   }
-  .philosophy__body-head{
+
+  .philosophy__body-head {
     width: 100%;
     height: auto;
     position: relative;
   }
-  .philosophy__lead{
-    top:auto;
+
+  .philosophy__lead {
+    top: auto;
     left: auto;
     display: block;
     height: auto;
@@ -3111,7 +3078,8 @@
     width: 100%;
     position: relative;
   }
-  .philosophy__cards{
+
+  .philosophy__cards {
     width: 100%;
     height: auto;
     padding: 0;
@@ -3119,205 +3087,255 @@
     top: auto;
     left: auto;
   }
-  .philosophy__card-text{
+
+  .philosophy__card-text {
     font-size: 16px;
     line-height: 1.4;
   }
-  .philosophy__card{
+
+  .philosophy__card {
     padding: 10px;
   }
-  .philosophy__cards{
+
+  .philosophy__cards {
     margin-top: 30px;
   }
-  .philosophy__body{
+
+  .philosophy__body {
     height: auto;
   }
-  .philosophy__top-inner{
+
+  .philosophy__top-inner {
     gap: 0;
   }
-  .philosophy__shift{
-    margin-top:40px;
+
+  .philosophy__shift {
+    margin-top: 40px;
     font-size: 24px;
     line-height: 1.2;
   }
-  .philosophy__shift-lead{
-    font-size: 24px;
-    line-height: 1.2;
-  }
-  .philosophy__shift-accent{
-    font-size: 24px;
-    line-height: 1.2;
-  }
-  .philosophy__top-inner{
+
+
+  .philosophy__top-inner {
     height: auto;
     min-height: 0;
   }
-  .philosophy__top{
+
+  .philosophy__top {
     min-height: 0;
   }
-  .philosophy__intel{
+
+  .philosophy__intel {
     padding: 50px 0;
   }
-  .philosophy__intel-row{
+
+  .philosophy__intel-row {
     gap: 0;
   }
-  .philosophy__intel-img{
+
+  .philosophy__intel-img {
     width: 100%;
     height: auto;
   }
-  .philosophy__intel-visual{
+
+  .philosophy__intel-visual {
     width: 400px;
     height: auto;
   }
-  .philosophy__intel-copy{
+
+  .philosophy__intel-copy {
     width: calc(100% - 400px);
     padding-right: 30px;
   }
-  .philosophy__intel-label{
+
+  .philosophy__intel-label {
     font-size: 14px;
     line-height: 1.5;
   }
-  .philosophy__intel-main{
+
+  .philosophy__intel-main {
     gap: 10px;
   }
-  .philosophy__intel-heading{
+
+  .philosophy__intel-heading {
     font-size: 28px;
     line-height: 1.2;
     width: auto;
   }
-  .philosophy__intel-cta{
+
+  .philosophy__intel-cta {
     margin-top: 20px;
     padding: 14px 20px;
     line-height: 1;
     height: auto;
     min-height: 0;
   }
-  .philosophy__intel-cta-text{
+
+  .philosophy__intel-cta-text {
     line-height: 1;
     height: auto;
     min-height: 0;
 
   }
-  .testimonials{padding: 50px 0;}
-  .testimonials__heading{
+
+  .testimonials {
+    padding: 50px 0;
+  }
+
+  .testimonials__heading {
     font-size: 14px;
   }
-  .testimonials .container{
+
+  .testimonials .container {
     gap: 30px;
   }
-  .testimonials__quote{
+
+  .testimonials__quote {
     font-size: 22px;
     line-height: 1.2;
   }
-  .testimonials__card{
-    padding: 35px ;
+
+  .testimonials__card {
+    padding: 35px;
     min-height: 0;
   }
-  .testimonials__nav{
 
-  display: none;
+  .testimonials__nav {
+
+    display: none;
   }
-  .testimonials__swiper{
+
+  .testimonials__swiper {
     padding-bottom: 35px;
   }
-  .case-studies__intro{
+
+  .case-studies__intro {
     gap: 10px;
   }
-  .case-studies__label{
+
+  .case-studies__label {
     font-size: 14px;
     letter-spacing: 4px;
   }
-  .case-studies__title{
+
+  .case-studies__title {
     font-size: 32px;
     line-height: 1.2;
   }
-  .case-studies__subtitle{
+
+  .case-studies__subtitle {
     font-size: 16px;
   }
-  .case-studies__inner{
+
+  .case-studies__inner {
     gap: 30px;
   }
-  .case-studies{
+
+  .case-studies {
     padding: 50px 0;
   }
-  .light-comparison__panel{
+
+  .light-comparison__panel {
     width: 100%;
   }
-  .light-comparison__panel-body{
+
+  .light-comparison__panel-body {
     width: 100%;
     font-size: 16px;
   }
-  .light-comparison__panel-pct, .light-comparison__panel-word{
+
+  .light-comparison__panel-pct,
+  .light-comparison__panel-word {
     font-size: 42px;
   }
-  .light-comparison__cta{
+
+  .light-comparison__cta {
     font-size: 14px;
     padding: 14px 20px;
     width: auto;
     min-width: 0;
   }
-  .evolution__title{
+
+  .evolution__title {
     font-size: 32px;
     line-height: 1.2;
   }
-  .evolution__label{
+
+  .evolution__label {
     font-size: 16px;
     letter-spacing: 4px;
   }
-  .evolution__subtitle{
+
+  .evolution__subtitle {
     font-size: 24px;
     line-height: 1.4;
   }
-  .evolution__head{
+
+  .evolution__head {
     min-height: 0;
     font-size: 18px;
     line-height: 1.5;
   }
-  .speed__title{
+
+  .speed__title {
     font-size: 32px;
     line-height: 1.2;
   }
-  .speed__segment-text{
+
+  .speed__segment-text {
     font-size: 20px;
     line-height: 1.2;
   }
-  .speed__rail{
+
+  .speed__rail {
     padding: 20px 30px;
   }
-  .speed__closing-intro{
+
+  .speed__closing-intro {
     font-size: 20px;
     line-height: 1.3;
   }
-  .speed__closing-emphasis{
+
+  .speed__closing-emphasis {
     font-size: 18px;
     line-height: 1.3;
   }
-  .speed__closing-tail{
+
+  .speed__closing-tail {
     font-size: 16px;
     line-height: 1.3;
   }
-  .speed__inner{
+
+  .speed__inner {
     gap: 35px;
   }
-  .speed__segment{
+
+  .speed__segment {
     padding: 10px;
   }
-  .hero__title{
+
+  .hero__title {
     font-size: 40px;
     line-height: 1.2;
   }
-  .hero{
+
+  .hero {
     padding-top: 54px;
   }
-  .hero__layout{
+
+  .hero__layout {
     justify-content: center;
   }
-  .evolution__row--tomorrow, .evolution__row--legacy{
+
+  .evolution__row--tomorrow,
+  .evolution__row--legacy {
     font-size: 14px;
     line-height: 1.5;
   }
-  .evolution__compare{
-  min-height: auto;}
+
+  .evolution__compare {
+    min-height: auto;
+  }
 }
 
 
@@ -3334,12 +3352,13 @@
 
 @media only screen and (max-width: 800px) {
 
-	.stella-section__visual{
-		width: 400px;
-	}
-	.stella-section__top{
-		gap: 20px;
-	}
+  .stella-section__visual {
+    width: 400px;
+  }
+
+  .stella-section__top {
+    gap: 20px;
+  }
 }
 
 
@@ -3355,113 +3374,144 @@
 
 
 @media only screen and (max-width: 760px) {
-  .cta-section__title{
+  .cta-section__title {
     font-size: 28px;
   }
-  .cta-section__text{
+
+  .cta-section__text {
     font-size: 16px;
     line-height: 1.5;
   }
-  .cta-section__button{
+
+  .cta-section__button {
     padding: 10px 20px;
     font-size: 12px;
   }
-  .cta-section{
+
+  .cta-section {
     padding: 50px 0;
   }
-  .cta-section__button-label{
+
+  .cta-section__button-label {
     font-size: 14px;
   }
-  .cta-section__inner{
+
+  .cta-section__inner {
     gap: 20px;
   }
-  .our-thinking__subscribe{
+
+  .our-thinking__subscribe {
     padding: 40px 20px;
   }
-  .our-thinking__subscribe-title{
+
+  .our-thinking__subscribe-title {
     font-size: 24px;
     line-height: 1.2;
   }
-  .our-thinking__subscribe-text{
+
+  .our-thinking__subscribe-text {
     font-size: 16px;
   }
-  .our-thinking__field{
+
+  .our-thinking__field {
     width: 100%;
   }
-  .our-thinking__submit{
+
+  .our-thinking__submit {
     width: 100%;
   }
-  .our-thinking{
+
+  .our-thinking {
     padding: 50px 0;
   }
-  .our-thinking__more{
+
+  .our-thinking__more {
     padding: 10px 20px;
     font-size: 12px;
     letter-spacing: 1.2px;
   }
-  .our-thinking__more-text{
+
+  .our-thinking__more-text {
     font-size: 14px;
     letter-spacing: 1.2px;
   }
-  .our-thinking__inner{
+
+  .our-thinking__inner {
     gap: 40px;
   }
-  .our-thinking__heading{
+
+  .our-thinking__heading {
     font-size: 28px;
     line-height: 1.2;
   }
-  .our-thinking__label{
+
+  .our-thinking__label {
     font-size: 14px;
   }
-  .stella-section__visual{
+
+  .stella-section__visual {
     width: 100%;
   }
-  .stella-section{
+
+  .stella-section {
     padding-top: 20px;
   }
-  .stella-section__top{
+
+  .stella-section__top {
     gap: 30px;
   }
-  .stella-section__intro{
+
+  .stella-section__intro {
     width: 100%;
   }
-  .stella-section__kicker{
+
+  .stella-section__kicker {
     letter-spacing: 2px;
     text-align: center;
     width: 100%;
   }
-  .stella-section__title{
+
+  .stella-section__title {
     width: 100%;
     text-align: center;
     font-size: 50px;
   }
-  .stella-section__tagline{
+
+  .stella-section__tagline {
     text-align: center;
   }
-  .stella-section__intro-head{
+
+  .stella-section__intro-head {
     gap: 0;
   }
-  .stella-section__intro-head{
+
+  .stella-section__intro-head {
     min-height: 0;
   }
-  .stella-section__actions-item{
+
+  .stella-section__actions-item {
     width: 100%;
     text-align: center;
     font-size: 28px;
   }
-  .stella-section__actions{
+
+  .stella-section__actions {
     min-height: auto;
   }
-  .stella-section__description{
+
+  .stella-section__description {
     font-size: 18px;
   }
-  .our-thinking__card-title-link{
+
+  .our-thinking__card-title-link {
     font-size: 18px;
   }
-  .philosophy__row{
+
+  .philosophy__row {
     flex-wrap: wrap;
   }
-  .philosophy__media{
+
+  .philosophy__media {
     height: 230px;
     border-radius: 10px;
     width: 100%;
@@ -3469,145 +3519,176 @@
     margin-top: 20px;
 
   }
-  .philosophy__body{
+
+  .philosophy__body {
     width: 100%;
     max-width: 100%;
     padding-left: 0;
     order: 1;
   }
-  .philosophy__title{
+
+  .philosophy__title {
     font-size: 28px;
   }
-  .philosophy__card-text{
+
+  .philosophy__card-text {
     font-size: 14px;
   }
-  .philosophy__card{
+
+  .philosophy__card {
     border-radius: 10px;
   }
-  .philosophy__shift{
-    margin-top: 16px;
-    min-height: 0;
-    line-height: 1;
+
+  .philosophy__shift {
+    margin-top: 30px;
+    font-size: 20px;
   }
-  .philosophy__shift-lead, .philosophy__shift-accent{
-    font-size: 16px;
-  }
-  .philosophy__shift{
-    margin-top: 20px;
-  }
-  .philosophy__intel{
+
+
+
+  .philosophy__intel {
     padding-top: 0;
   }
-  .philosophy__intel-row{
+
+  .philosophy__intel-row {
     padding: 0;
     flex-wrap: wrap;
   }
-  .philosophy__intel-copy{
+
+  .philosophy__intel-copy {
     padding: 0;
     width: 100%;
   }
-  .philosophy__top{
+
+  .philosophy__top {
     padding-bottom: 80px;
   }
-  .philosophy__intel-heading{
+
+  .philosophy__intel-heading {
     font-size: 22px;
     text-align: center;
   }
-  .philosophy__intel-visual{
+
+  .philosophy__intel-visual {
     width: 100%;
     margin-top: 30px;
   }
-  .philosophy__intel-cta{
+
+  .philosophy__intel-cta {
     padding: 10px 20px;
     min-height: 0;
     height: auto;
     margin: 0 auto;
     margin-top: 30px;
-    
+
   }
-  .philosophy__intel-main{
-    gap:0;
-  }
-  .philosophy__intel-copy{
+
+  .philosophy__intel-main {
     gap: 0;
   }
-  .philosophy__intel-label{
+
+  .philosophy__intel-copy {
+    gap: 0;
+  }
+
+  .philosophy__intel-label {
     letter-spacing: 4px;
     text-align: center;
     width: 100%;
     margin-bottom: 10px;
   }
-  .philosophy__eyebrow{
+
+  .philosophy__eyebrow {
     width: 100%;
     text-align: center;
   }
-  .philosophy__title{
+
+  .philosophy__title {
     width: 100%;
     text-align: center;
   }
-  .philosophy__lead{
+
+  .philosophy__lead {
     text-align: center;
   }
-  .philosophy__card-text{
+
+  .philosophy__card-text {
     text-align: center;
   }
-  .testimonials__heading{
+
+  .testimonials__heading {
     letter-spacing: 4px;
-    
+
   }
-  .philosophy__eyebrow{
+
+  .philosophy__eyebrow {
     letter-spacing: 4px;
   }
-  .testimonials__card{
+
+  .testimonials__card {
     padding: 25px;
   }
-  .testimonials__quote{
+
+  .testimonials__quote {
     font-size: 20px;
   }
-  .case-studies__title{
+
+  .case-studies__title {
     font-size: 28px;
   }
-  .case-studies__more{
+
+  .case-studies__more {
     font-size: 14px;
     line-height: 1;
     padding: 14px 20px;
     min-height: auto;
     height: auto;
   }
-  .case-studies__label{
+
+  .case-studies__label {
     font-size: 14px;
     letter-spacing: 4px;
   }
-  .case-studies__subtitle{
+
+  .case-studies__subtitle {
     line-height: 1.5;
   }
-  .light-comparison__title, .light-comparison__title-accent{
+
+  .light-comparison__title,
+  .light-comparison__title-accent {
     font-size: 25px;
     line-height: 1.2;
   }
-  .light-comparison__shell{
+
+  .light-comparison__shell {
     gap: 30px;
   }
-  .light-comparison__lead{
+
+  .light-comparison__lead {
     font-size: 18px;
     line-height: 1.4;
   }
-  .light-comparison__stage--a{
+
+  .light-comparison__stage--a {
     width: 100%;
   }
-  .light-comparison__tl-label{
+
+  .light-comparison__tl-label {
     font-size: 12px;
     letter-spacing: 2px;
     line-height: 1.2;
   }
-  .light-comparison__tl-stat{
+
+  .light-comparison__tl-stat {
     font-size: 12px;
     line-height: 1;
   }
-  .light-comparison__legacy{
+
+  .light-comparison__legacy {
     height: auto;
   }
-  .light-comparison__tl-titles{
+
+  .light-comparison__tl-titles {
     position: relative;
     top: auto;
     left: auto;
@@ -3615,233 +3696,284 @@
     right: auto;
     margin-bottom: 12px;
   }
-  .light-comparison__tl-track--legacy{
+
+  .light-comparison__tl-track--legacy {
     position: relative;
     top: auto;
     left: auto;
     bottom: auto;
     right: auto;
   }
-  .light-comparison__sr{
+
+  .light-comparison__sr {
     height: auto;
   }
-  .light-comparison__tl-track--legacy{
+
+  .light-comparison__tl-track--legacy {
     gap: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 12px 15px;
-    span{
+
+    span {
       width: 20px;
       height: 20px;
       padding: 0;
     }
   }
-  .light-comparison__tl-track--sr{
+
+  .light-comparison__tl-track--sr {
     gap: 0;
     height: auto;
     top: auto;
-    span{
+
+    span {
       width: 20px;
       height: 20px;
       padding: 0;
     }
-  
+
   }
-  .light-comparison__sr-wrapper{
+
+  .light-comparison__sr-wrapper {
     position: relative;
     height: 44px;
     width: 100%;
     display: flex;
     align-items: center;
   }
-  .light-comparison__sr-rail{
+
+  .light-comparison__sr-rail {
     top: auto;
   }
-  .light-comparison__row{
+
+  .light-comparison__row {
     gap: 40px;
   }
-  .light-comparison__panel{
+
+  .light-comparison__panel {
     padding: 25px;
   }
-  .light-comparison__panel-label{
+
+  .light-comparison__panel-label {
     font-size: 14px;
     letter-spacing: 4px;
   }
-  .light-comparison__panel-pct, .light-comparison__panel-word{
+
+  .light-comparison__panel-pct,
+  .light-comparison__panel-word {
     font-size: 32px;
     line-height: 1;
   }
-  .light-comparison__panel{
+
+  .light-comparison__panel {
     gap: 20px;
   }
-  .light-comparison__cta{
+
+  .light-comparison__cta {
     min-height: 0;
     height: auto;
     padding: 14px 20px;
     line-height: 1;
   }
-  .light-comparison{
+
+  .light-comparison {
     padding: 50px 0;
   }
-  .evolution{
+
+  .evolution {
     padding: 50px 0;
   }
-  .evolution__intro{
+
+  .evolution__intro {
     gap: 10px;
   }
-  .evolution__label{
+
+  .evolution__label {
     font-size: 14px;
     line-height: 1;
   }
-  .evolution__title{
+
+  .evolution__title {
     font-size: 26px;
   }
-  .evolution__subtitle{
+
+  .evolution__subtitle {
     font-size: 16px;
   }
-  .evolution__compare{
+
+  .evolution__compare {
     flex-wrap: wrap;
     display: flex;
   }
-  .evolution__row{
+
+  .evolution__row {
     font-size: 14px;
     line-height: 1;
     padding: 10px 15px;
   }
-  .evolution__head{
+
+  .evolution__head {
     font-size: 14px;
     line-height: 1;
     padding: 10px 15px;
   }
-  .evolution__title{
+
+  .evolution__title {
     font-size: 25px;
   }
-  .stella-section__visual{
+
+  .stella-section__visual {
     order: 2;
   }
-  .stella-section{
+
+  .stella-section {
     padding-top: 50px;
   }
-  .speed{
+
+  .speed {
     padding: 50px 0;
   }
-  .speed__eyebrow{
+
+  .speed__eyebrow {
     font-size: 14px;
     letter-spacing: 4px;
     line-height: 1;
   }
-  .speed__title{
+
+  .speed__title {
     font-size: 25px;
   }
-  .speed__rail{
+
+  .speed__rail {
     border-radius: 20px 20px 30px 30px;
     display: block;
-    background: linear-gradient(
-      
-      180deg,
-      rgba(120, 43, 22, 0) 0%,
-      rgba(127, 45, 23, 0.07) 7.14285746216774%,
-      rgba(134, 48, 25, 0.14) 14.28571492433548%,
-      rgba(141, 50, 26, 0.21) 21.42857164144516%,
-      rgba(148, 53, 27, 0.29) 28.57142984867096%,
-      rgba(155, 56, 29, 0.36) 35.71428656578064%,
-      rgba(162, 58, 30, 0.43) 42.85714328289032%,
-      rgba(170, 61, 31, 0.5) 50%,
-      rgba(177, 63, 33, 0.57) 57.14285969734192%,
-      rgba(184, 66, 34, 0.64) 64.28571343421936%,
-      rgba(192, 68, 35, 0.71) 71.42857313156128%,
-      rgba(199, 71, 37, 0.79) 78.57142686843872%,
-      rgba(207, 74, 38, 0.86) 85.71428656578064%,
-      rgba(214, 76, 40, 0.93) 92.85714030265808%,
-      rgba(222, 79, 41, 1) 100%
-    );
+    background: linear-gradient(180deg,
+        rgba(120, 43, 22, 0) 0%,
+        rgba(127, 45, 23, 0.07) 7.14285746216774%,
+        rgba(134, 48, 25, 0.14) 14.28571492433548%,
+        rgba(141, 50, 26, 0.21) 21.42857164144516%,
+        rgba(148, 53, 27, 0.29) 28.57142984867096%,
+        rgba(155, 56, 29, 0.36) 35.71428656578064%,
+        rgba(162, 58, 30, 0.43) 42.85714328289032%,
+        rgba(170, 61, 31, 0.5) 50%,
+        rgba(177, 63, 33, 0.57) 57.14285969734192%,
+        rgba(184, 66, 34, 0.64) 64.28571343421936%,
+        rgba(192, 68, 35, 0.71) 71.42857313156128%,
+        rgba(199, 71, 37, 0.79) 78.57142686843872%,
+        rgba(207, 74, 38, 0.86) 85.71428656578064%,
+        rgba(214, 76, 40, 0.93) 92.85714030265808%,
+        rgba(222, 79, 41, 1) 100%);
   }
-  .speed__rail-inner{
+
+  .speed__rail-inner {
     display: block;
   }
-  .speed__segment{
+
+  .speed__segment {
     width: 100%;
     display: block;
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    &:last-child{
+
+    &:last-child {
       border-bottom: none;
     }
   }
-  .speed__segment-text{
+
+  .speed__segment-text {
     font-size: 18px;
     line-height: 1.4;
   }
-  .speed__closing-intro{
+
+  .speed__closing-intro {
     font-size: 18px;
   }
-  .speed__closing-emphasis{
+
+  .speed__closing-emphasis {
     font-size: 16px;
   }
-  .hero__eyebrow{
+
+  .hero__eyebrow {
     font-size: 14px;
     letter-spacing: 4px;
     line-height: 1.2;
   }
-  .hero__title{
+
+  .hero__title {
     font-size: 28px;
   }
-  .hero__subhead{
+
+  .hero__subhead {
     font-size: 16px;
     line-height: 1.5;
   }
-  .hero__text{
+
+  .hero__text {
     font-size: 14px;
   }
-  .hero__cta{
+
+  .hero__cta {
     padding: 10px 20px;
     font-size: 14px;
     letter-spacing: 1.2px;
   }
-  .hero__card{
+
+  .hero__card {
     padding: 30px;
   }
-  .hero{
+
+  .hero {
     min-height: 690px;
   }
-  .evolution__col{
+
+  .evolution__col {
     width: 100%;
     border: none;
   }
-  .philosophy__top{
+
+  .philosophy__top {
     padding-bottom: 60px;
   }
-  .stella-section__top{
+
+  .stella-section__top {
     gap: 10px;
   }
-  .light-comparison__title-wrap{
+
+  .light-comparison__title-wrap {
     text-align: left;
     display: block;
   }
-  .light-comparison__accent-wrap{
+
+  .light-comparison__accent-wrap {
     text-align: left;
     width: 100%;
     display: inline;
   }
-  .light-comparison__title-accent{
+
+  .light-comparison__title-accent {
     text-align: left;
     width: 100%;
     display: inline;
   }
-  .light-comparison__panel-label{
+
+  .light-comparison__panel-label {
     text-align: center;
     display: block;
     width: 100%;
   }
-  .light-comparison__panel-stat{
+
+  .light-comparison__panel-stat {
     width: 100%;
     text-align: center;
   }
-  .light-comparison__panel-body{
+
+  .light-comparison__panel-body {
     text-align: center;
   }
-  .light-comparison__panel{
+
+  .light-comparison__panel {
     align-items: center;
   }
 }

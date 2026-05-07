@@ -20,10 +20,11 @@
 }
 
 .perspective-featured__swiper {
-    flex: 1;
+
     min-width: 0;
     position: relative;
     overflow: hidden;
+    width: 865px;
 }
 
 .perspective-featured__swiper .swiper-slide {
@@ -179,8 +180,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    margin-top: 24px;
+    gap: 28px;
+    margin-top: 32px;
     position: relative;
     bottom: auto !important;
     top: auto !important;
@@ -284,7 +285,7 @@
     /* identical to box height, or 129% */
     font-family: $secondFont;
     color: $darkBlue1;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .perspective-posts-sec__nav {
@@ -424,6 +425,17 @@
 
 .ctr-form-sec {
     padding-bottom: 100px;
+
+}
+
+.ctr-form-sec__wrapper {
+    background: #FFFFFF;
+    border: 2px solid #DE4F29;
+    box-shadow: 0px 8px 24px rgba(222, 79, 41, 0.08);
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px;
 }
 
 .ctr-form-sec__title {
@@ -600,6 +612,10 @@
         font-size: 16px;
     }
 
+    .ctr-form-sec__wrapper {
+        padding: 30px;
+    }
+
 
 
 }
@@ -683,4 +699,26 @@
     .form-inp-wrapper input {
         font-size: 13px;
     }
+
+    .ctr-form-sec__wrapper {
+        padding: 30px 20px;
+    }
+
+    .perspective-featured__nav {
+        display: block;
+    }
+
+    .perspective-prev-btn {
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+    }
+
+    .perspective-next-btn {
+        position: absolute;
+        bottom: -15px;
+        right: 0;
+    }
+
+
 }
