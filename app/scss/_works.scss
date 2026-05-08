@@ -146,7 +146,7 @@
     text-transform: uppercase;
 
     font-family: $fontGrotesk;
-    color: $orange;
+    color: $orange2;
     margin-bottom: 22px;
 }
 
@@ -182,7 +182,7 @@
 }
 
 .work-post-card__down-text {
-    color: $orange;
+    color: $orange2;
     font-weight: 700;
     font-size: 19px;
     line-height: 28px;
@@ -267,7 +267,9 @@
     color: $white;
     font-size: 17px;
     line-height: 1.3;
+    font-weight: 300;
     font-family: $secondFont;
+    opacity: 0.8;
 }
 
 @media only screen and (max-width: 1220px) {

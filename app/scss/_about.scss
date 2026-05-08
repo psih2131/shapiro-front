@@ -73,6 +73,7 @@
 
     b {
         color: $orange;
+        font-weight: 700;
     }
 }
 
@@ -148,7 +149,7 @@
 
 .about-awards__card-number {
     text-align: center;
-    color: $orange;
+    color: $orange2;
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
@@ -184,6 +185,12 @@
     text-transform: uppercase;
     color: #9CA3AF;
     border-top: 1px solid rgba(10, 22, 40, 0.08);
+
+
+    b {
+        font-weight: 500;
+        color: #6B7280;
+    }
 }
 
 .about-pharma {
@@ -291,14 +298,14 @@
     position: relative;
 
     &::before {
-        width: 8px;
-        height: 8px;
+        width: 6px;
+        height: 6px;
         left: 0;
         content: "";
         position: absolute;
         left: 0;
         border-radius: 100px;
-        background: $orange;
+        background: $orange2;
         top: 9px;
     }
 
@@ -401,11 +408,13 @@
 
     svg {
         display: block;
+        transition: all ease 0.3s;
+    }
 
-        &:hover {
-            path {
-                stroke: $darkBlue1;
-            }
+    &:hover {
+        svg {
+            transform: scale(1.2);
+            transition: all ease 0.3s;
         }
     }
 
@@ -426,7 +435,8 @@
     margin-bottom: 30px;
 
     b {
-        color: $orange;
+        color: #FA8D36;
+        font-weight: 700;
     }
 }
 

@@ -81,7 +81,7 @@
 
 .perspective-featured-card__category {
     margin: 0;
-    color: $orange;
+    color: $orange2;
     font-family: $fontGrotesk;
     font-size: 12px;
     line-height: 16px;
@@ -197,7 +197,7 @@
     width: 8px;
     height: 8px;
     background: #ffffff;
-    border: 0.5px solid #cbd5e1;
+    border: 0.5px solid #4A5568;
     opacity: 1;
     box-sizing: border-box;
 }
@@ -300,7 +300,7 @@
     width: calc(100% + 30px);
     margin-left: -15px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     row-gap: 30px;
 
     .perspective-post-card {
@@ -352,7 +352,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
 
-    color: $orange
+    color: $orange2;
 }
 
 .perspective-post-card__title {
