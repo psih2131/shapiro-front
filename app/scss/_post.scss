@@ -182,8 +182,8 @@
 }
 
 .post-hero-constructor__list-v1 {
-    margin-bottom: 30px;
-    padding: 32px 32px 0px 36px;
+    margin-bottom: 40px;
+    padding: 32px 32px 32px 36px;
 
     background: linear-gradient(135deg, rgba(222, 79, 41, 0.06) 0%, rgba(222, 79, 41, 0.02) 100%);
     border-left: 4px solid #DE4F29;
@@ -233,7 +233,7 @@
 }
 
 .post-hero-constructor__list-v3--num {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     padding: 32px 32px 32px 36px;
 
     background: linear-gradient(135deg, rgba(59, 130, 246, 0.06) 0%, rgba(59, 130, 246, 0.02) 100%);
@@ -293,7 +293,7 @@
     border-left: 4px solid #0A1628;
     border-radius: 12px;
     padding: 32px 32px 32px 36px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .post-hero-constructor__list-v2-title {
@@ -333,7 +333,7 @@
 
 
 .post-hero-constructor__list-key {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     background: linear-gradient(135deg, rgba(222, 79, 41, 0.06) 0%, rgba(222, 79, 41, 0.02) 100%);
     border: 1px solid rgba(222, 79, 41, 0.2);
     border-radius: 16px;
@@ -402,7 +402,11 @@
     }
 }
 
-@media only screen and (max-width: 800px) {}
+@media only screen and (max-width: 830px) {
+    .container-post {
+        width: 700px;
+    }
+}
 
 @media only screen and (max-width: 760px) {
     .container-post {
@@ -464,6 +468,7 @@
 
     .post-hero-constructor__list-v1 {
         padding: 20px;
+        margin-bottom: 30px;
     }
 
     .post-hero-constructor__list-v1-title {
@@ -476,6 +481,7 @@
 
     .post-hero-constructor__list-v2 {
         padding: 20px;
+        margin-bottom: 30px;
     }
 
     .post-hero-constructor__list-v2-title {
@@ -488,7 +494,7 @@
 
     .post-hero-constructor__list-v3--num {
         padding: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .post-hero-constructor__list-v3--num-ul li p {
@@ -505,12 +511,12 @@
     }
 
     .post-hero-v2 .container-post {
-        padding-top: 300px;
+        padding-top: 424px;
     }
 
     .post-hero-constructor__list-key {
         padding: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .post-hero-constructor__list-key-ul li p {
